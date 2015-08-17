@@ -1,0 +1,16 @@
+.container {
+    width: 200px;
+    margin: 5em auto;
+}
+ 
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #33f;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+}
+ 
+.box:hover {
+    background-color: #f33;
+}
